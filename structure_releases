@@ -1,0 +1,113 @@
+Discovering structure of discogs_20190101_releases.xml...
+releases
+  - attr id
+  - attr status
+  release
+    images
+      - attr height
+      - attr type
+      - attr uri
+      - attr uri150
+      - attr width
+      image
+    artists
+      artist
+        id
+        name
+        anv
+        join
+        role
+        tracks
+    title
+    labels
+      - attr catno
+      - attr id
+      - attr name
+      label
+    extraartists
+      artist
+        id
+        name
+        anv
+        join
+        role
+        tracks
+    formats
+      - attr name
+      - attr qty
+      - attr text
+      format
+        descriptions
+          description
+    genres
+      genre
+    styles
+      style
+    country
+    released
+    notes
+    data_quality
+    tracklist
+      track
+        position
+        title
+        duration
+    identifiers
+      - attr description
+      - attr type
+      - attr value
+      identifier
+    videos
+      - attr duration
+      - attr embed
+      - attr src
+      video
+        title
+        description
+    companies
+      company
+        id
+        name
+        catno
+        entity_type
+        entity_type_name
+        resource_url
+    - attr is_main_release
+    master_id
+        artists
+          artist
+            id
+            name
+            anv
+            join
+            role
+            tracks
+        extraartists
+          artist
+            id
+            name
+            anv
+            join
+            role
+            tracks
+        sub_tracks
+          track
+            position
+            title
+            duration
+            extraartists
+              artist
+                id
+                name
+                anv
+                join
+                role
+                tracks
+            artists
+              artist
+                id
+                name
+                anv
+                join
+                role
+                tracks

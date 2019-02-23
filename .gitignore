@@ -1,4 +1,2 @@
 node_modules
-discogs_20190101_artists.xml
-discogs_20190101_labels.xml
-discogs_20190101_masters.xml
+discogs_*.xml
