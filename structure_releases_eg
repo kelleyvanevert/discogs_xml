@@ -1,15 +1,15 @@
 Discovering structure of discogs_20190101_releases.xml...
 releases
-  - attr id e.g. "1"
-  - attr status e.g. "Accepted"
   release
+    - attr id e.g. "1"
+    - attr status e.g. "Accepted"
     images
-      - attr height e.g. "600"
-      - attr type e.g. "primary"
-      - attr uri e.g. ""
-      - attr uri150 e.g. ""
-      - attr width e.g. "600"
       image
+        - attr height e.g. "600"
+        - attr type e.g. "primary"
+        - attr uri e.g. ""
+        - attr uri150 e.g. ""
+        - attr width e.g. "600"
     artists
       artist
         id
@@ -23,10 +23,10 @@ releases
     title
       - text e.g. "Stockholm"
     labels
-      - attr catno e.g. "SK032"
-      - attr id e.g. "5"
-      - attr name e.g. "Svek"
       label
+        - attr catno e.g. "SK032"
+        - attr id e.g. "5"
+        - attr name e.g. "Svek"
     extraartists
       artist
         id
@@ -39,10 +39,10 @@ releases
           - text e.g. "Music By [All Tracks By]"
         tracks
     formats
-      - attr name e.g. "Vinyl"
-      - attr qty e.g. "2"
-      - attr text e.g. ""
       format
+        - attr name e.g. "Vinyl"
+        - attr qty e.g. "2"
+        - attr text e.g. ""
         descriptions
           description
             - text e.g. "12""
@@ -69,15 +69,15 @@ releases
         duration
           - text e.g. "4:45"
     identifiers
-      - attr description e.g. "A-Side Runout"
-      - attr type e.g. "Matrix / Runout"
-      - attr value e.g. "MPO SK 032 A1"
       identifier
+        - attr description e.g. "A-Side Runout"
+        - attr type e.g. "Matrix / Runout"
+        - attr value e.g. "MPO SK 032 A1"
     videos
-      - attr duration e.g. "296"
-      - attr embed e.g. "true"
-      - attr src e.g. "https://www.youtube.com/watch?v=MpmbntGDyNE"
       video
+        - attr duration e.g. "296"
+        - attr embed e.g. "true"
+        - attr src e.g. "https://www.youtube.com/watch?v=MpmbntGDyNE"
         title
           - text e.g. "The Persuader - Östermalm"
         description
@@ -95,8 +95,8 @@ releases
           - text e.g. "Recorded At"
         resource_url
           - text e.g. "https://api.discogs.com/labels/271046"
-    - attr is_main_release e.g. "true"
     master_id
+      - attr is_main_release e.g. "true"
       - text e.g. "713738"
         artists
           artist

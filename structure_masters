@@ -1,15 +1,15 @@
 Discovering structure of discogs_20190101_masters.xml...
 masters
-  - attr id
   master
+    - attr id
     main_release
     images
-      - attr height
-      - attr type
-      - attr uri
-      - attr uri150
-      - attr width
       image
+        - attr height
+        - attr type
+        - attr uri
+        - attr uri150
+        - attr width
     artists
       artist
         id
@@ -26,10 +26,10 @@ masters
     title
     data_quality
     videos
-      - attr duration
-      - attr embed
-      - attr src
       video
+        - attr duration
+        - attr embed
+        - attr src
         title
         description
     notes

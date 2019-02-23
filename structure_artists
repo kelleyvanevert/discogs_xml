@@ -2,12 +2,12 @@ Discovering structure of discogs_20190101_artists.xml...
 artists
   artist
     images
-      - attr height
-      - attr type
-      - attr uri
-      - attr uri150
-      - attr width
       image
+        - attr height
+        - attr type
+        - attr uri
+        - attr uri150
+        - attr width
     id
     name
     realname
@@ -16,14 +16,14 @@ artists
     namevariations
       name
     aliases
-      - attr id
       name
+        - attr id
     members
       id
-      - attr id
       name
+        - attr id
     urls
       url
     groups
-      - attr id
       name
+        - attr id

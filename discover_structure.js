@@ -51,7 +51,7 @@ saxStream.onerror = function (e) {
   throw e
 }
 
-saxStream.onopentag = function (node) {
+saxStream.onopentagstart = function (node) {
   if (!at[node.name]) {
     // => we don't know of this node yet
 

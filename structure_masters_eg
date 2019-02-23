@@ -1,17 +1,16 @@
 Discovering structure of discogs_20190101_masters.xml...
 masters
-  - text e.g. ""
-  - attr id e.g. "18500"
   master
+    - attr id e.g. "18500"
     main_release
       - text e.g. "155102"
     images
-      - attr height e.g. "588"
-      - attr type e.g. "primary"
-      - attr uri e.g. ""
-      - attr uri150 e.g. ""
-      - attr width e.g. "600"
       image
+        - attr height e.g. "588"
+        - attr type e.g. "primary"
+        - attr uri e.g. ""
+        - attr uri150 e.g. ""
+        - attr width e.g. "600"
     artists
       artist
         id
@@ -36,10 +35,10 @@ masters
     data_quality
       - text e.g. "Correct"
     videos
-      - attr duration e.g. "489"
-      - attr embed e.g. "true"
-      - attr src e.g. "https://www.youtube.com/watch?v=f05Ai921itM"
       video
+        - attr duration e.g. "489"
+        - attr embed e.g. "true"
+        - attr src e.g. "https://www.youtube.com/watch?v=f05Ai921itM"
         title
           - text e.g. "Samuel L - Velvet"
         description

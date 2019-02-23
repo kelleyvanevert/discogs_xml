@@ -1,14 +1,13 @@
 Discovering structure of discogs_20190101_labels.xml...
 labels
-  - text e.g. ""
   label
     images
-      - attr height e.g. "24"
-      - attr type e.g. "primary"
-      - attr uri e.g. ""
-      - attr uri150 e.g. ""
-      - attr width e.g. "132"
       image
+        - attr height e.g. "24"
+        - attr type e.g. "primary"
+        - attr uri e.g. ""
+        - attr uri150 e.g. ""
+        - attr width e.g. "132"
     id
       - text e.g. "1"
     name
@@ -23,9 +22,9 @@ labels
       url
         - text e.g. "http://planet-e.net"
     sublabels
-      - attr id e.g. "86537"
       label
+        - attr id e.g. "86537"
         - text e.g. "Antidote (4)"
-    - attr id e.g. "4711"
     parentLabel
+      - attr id e.g. "4711"
       - text e.g. "Goldhead Music"

@@ -1,14 +1,13 @@
 Discovering structure of discogs_20190101_artists.xml...
 artists
-  - text e.g. ""
   artist
     images
-      - attr height e.g. "450"
-      - attr type e.g. "primary"
-      - attr uri e.g. ""
-      - attr uri150 e.g. ""
-      - attr width e.g. "600"
       image
+        - attr height e.g. "450"
+        - attr type e.g. "primary"
+        - attr uri e.g. ""
+        - attr uri150 e.g. ""
+        - attr width e.g. "600"
     id
       - text e.g. "1"
     name
@@ -22,19 +21,19 @@ artists
       name
         - text e.g. "Persuader"
     aliases
-      - attr id e.g. "19541"
       name
+        - attr id e.g. "19541"
         - text e.g. "Dick Track"
     members
       id
         - text e.g. "26"
-      - attr id e.g. "26"
       name
+        - attr id e.g. "26"
         - text e.g. "Alexi Delano"
     urls
       url
         - text e.g. "http://www.joshwink.com/"
     groups
-      - attr id e.g. "55692"
       name
+        - attr id e.g. "55692"
         - text e.g. "Abundance Of Cups"

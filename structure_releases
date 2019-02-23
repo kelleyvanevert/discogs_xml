@@ -1,15 +1,15 @@
 Discovering structure of discogs_20190101_releases.xml...
 releases
-  - attr id
-  - attr status
   release
+    - attr id
+    - attr status
     images
-      - attr height
-      - attr type
-      - attr uri
-      - attr uri150
-      - attr width
       image
+        - attr height
+        - attr type
+        - attr uri
+        - attr uri150
+        - attr width
     artists
       artist
         id
@@ -20,10 +20,10 @@ releases
         tracks
     title
     labels
-      - attr catno
-      - attr id
-      - attr name
       label
+        - attr catno
+        - attr id
+        - attr name
     extraartists
       artist
         id
@@ -33,10 +33,10 @@ releases
         role
         tracks
     formats
-      - attr name
-      - attr qty
-      - attr text
       format
+        - attr name
+        - attr qty
+        - attr text
         descriptions
           description
     genres
@@ -53,15 +53,15 @@ releases
         title
         duration
     identifiers
-      - attr description
-      - attr type
-      - attr value
       identifier
+        - attr description
+        - attr type
+        - attr value
     videos
-      - attr duration
-      - attr embed
-      - attr src
       video
+        - attr duration
+        - attr embed
+        - attr src
         title
         description
     companies
@@ -72,8 +72,8 @@ releases
         entity_type
         entity_type_name
         resource_url
-    - attr is_main_release
     master_id
+      - attr is_main_release
         artists
           artist
             id
