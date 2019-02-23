@@ -1,0 +1,151 @@
+Discovering structure of discogs_20190101_releases.xml...
+releases
+  - attr id e.g. "1"
+  - attr status e.g. "Accepted"
+  release
+    images
+      - attr height e.g. "600"
+      - attr type e.g. "primary"
+      - attr uri e.g. ""
+      - attr uri150 e.g. ""
+      - attr width e.g. "600"
+      image
+    artists
+      artist
+        id
+          - text e.g. "1"
+        name
+          - text e.g. "The Persuader"
+        anv
+        join
+        role
+        tracks
+    title
+      - text e.g. "Stockholm"
+    labels
+      - attr catno e.g. "SK032"
+      - attr id e.g. "5"
+      - attr name e.g. "Svek"
+      label
+    extraartists
+      artist
+        id
+          - text e.g. "239"
+        name
+          - text e.g. "Jesper Dahlbäck"
+        anv
+        join
+        role
+          - text e.g. "Music By [All Tracks By]"
+        tracks
+    formats
+      - attr name e.g. "Vinyl"
+      - attr qty e.g. "2"
+      - attr text e.g. ""
+      format
+        descriptions
+          description
+            - text e.g. "12""
+    genres
+      genre
+        - text e.g. "Electronic"
+    styles
+      style
+        - text e.g. "Deep House"
+    country
+      - text e.g. "Sweden"
+    released
+      - text e.g. "1999-03-00"
+    notes
+      - text e.g. "The song titles are the names of six of Stockholm's 82 districts.\n\nTitle on label: - Stockholm -\n\nRecorded at the Globe Studio, Stockholm\n\nFAX: +46 8 679 64 53"
+    data_quality
+      - text e.g. "Needs Vote"
+    tracklist
+      track
+        position
+          - text e.g. "A"
+        title
+          - text e.g. "Östermalm"
+        duration
+          - text e.g. "4:45"
+    identifiers
+      - attr description e.g. "A-Side Runout"
+      - attr type e.g. "Matrix / Runout"
+      - attr value e.g. "MPO SK 032 A1"
+      identifier
+    videos
+      - attr duration e.g. "296"
+      - attr embed e.g. "true"
+      - attr src e.g. "https://www.youtube.com/watch?v=MpmbntGDyNE"
+      video
+        title
+          - text e.g. "The Persuader - Östermalm"
+        description
+          - text e.g. "The Persuader - Östermalm"
+    companies
+      company
+        id
+          - text e.g. "271046"
+        name
+          - text e.g. "The Globe Studios"
+        catno
+        entity_type
+          - text e.g. "23"
+        entity_type_name
+          - text e.g. "Recorded At"
+        resource_url
+          - text e.g. "https://api.discogs.com/labels/271046"
+    - attr is_main_release e.g. "true"
+    master_id
+      - text e.g. "713738"
+        artists
+          artist
+            id
+              - text e.g. "5"
+            name
+              - text e.g. "Heiko Laux"
+            anv
+            join
+              - text e.g. "&"
+            role
+            tracks
+        extraartists
+          artist
+            id
+              - text e.g. "8"
+            name
+              - text e.g. "Mood II Swing"
+            anv
+            join
+            role
+              - text e.g. "Remix"
+            tracks
+        sub_tracks
+          track
+            position
+              - text e.g. "11.a"
+            title
+              - text e.g. "909 Shuffle"
+            duration
+              - text e.g. "3:10"
+            extraartists
+              artist
+                id
+                  - text e.g. "15589"
+                name
+                  - text e.g. "Alison Goldfrapp"
+                anv
+                join
+                role
+                  - text e.g. "Vocals"
+                tracks
+            artists
+              artist
+                id
+                  - text e.g. "1166"
+                name
+                  - text e.g. "Fumiya Tanaka"
+                anv
+                join
+                role
+                tracks

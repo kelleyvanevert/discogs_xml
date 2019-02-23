@@ -1,0 +1,48 @@
+Discovering structure of discogs_20190101_masters.xml...
+masters
+  - text e.g. ""
+  - attr id e.g. "18500"
+  master
+    main_release
+      - text e.g. "155102"
+    images
+      - attr height e.g. "588"
+      - attr type e.g. "primary"
+      - attr uri e.g. ""
+      - attr uri150 e.g. ""
+      - attr width e.g. "600"
+      image
+    artists
+      artist
+        id
+          - text e.g. "212070"
+        name
+          - text e.g. "Samuel L Session"
+        anv
+          - text e.g. "Samuel L"
+        join
+        role
+        tracks
+    genres
+      genre
+        - text e.g. "Electronic"
+    styles
+      style
+        - text e.g. "Techno"
+    year
+      - text e.g. "2001"
+    title
+      - text e.g. "New Soil"
+    data_quality
+      - text e.g. "Correct"
+    videos
+      - attr duration e.g. "489"
+      - attr embed e.g. "true"
+      - attr src e.g. "https://www.youtube.com/watch?v=f05Ai921itM"
+      video
+        title
+          - text e.g. "Samuel L - Velvet"
+        description
+          - text e.g. "Samuel L - Velvet"
+    notes
+      - text e.g. "The CD compiles tracks from various 7", 12", cassette and split-releases, plus a few tracks never before published. The LP version only contains the tracks, that were never before released on vinyl and adds an uncredited bonus-track, a cover version of "Planet Earth", originally by [a=Duran Duran]."

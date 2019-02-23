@@ -1,0 +1,31 @@
+Discovering structure of discogs_20190101_labels.xml...
+labels
+  - text e.g. ""
+  label
+    images
+      - attr height e.g. "24"
+      - attr type e.g. "primary"
+      - attr uri e.g. ""
+      - attr uri150 e.g. ""
+      - attr width e.g. "132"
+      image
+    id
+      - text e.g. "1"
+    name
+      - text e.g. "Planet E"
+    contactinfo
+      - text e.g. "Planet E Communications\nP.O. Box 27218\nDetroit, Michigan, MI 48227\nUSA\n\nPhone: +1 313 874 8729\nFax: +1 313 874 8732\nEmail: info@Planet-e.net"
+    profile
+      - text e.g. "[a=Carl Craig]'s classic techno label founded in 1991.\n\nOn at least 1 release, Planet E is listed as publisher."
+    data_quality
+      - text e.g. "Correct"
+    urls
+      url
+        - text e.g. "http://planet-e.net"
+    sublabels
+      - attr id e.g. "86537"
+      label
+        - text e.g. "Antidote (4)"
+    - attr id e.g. "4711"
+    parentLabel
+      - text e.g. "Goldhead Music"

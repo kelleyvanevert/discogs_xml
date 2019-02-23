@@ -15,11 +15,16 @@
   Usage:
     Just discover the structure
       node discover_structure.js MY_XML_FILE
+    
+    With example values / text content
+      node discover_structure.js MY_XML_FILE yes
+    
     Save it to a file
       node discover_structure.js MY_XML_FILE > SOME_FILE
 */
 
 const xmlFile = process.argv[2]
+const withEg = process.argv[3] === "yes"
 
 const fs = require("fs");
 const sax = require("sax");
@@ -54,10 +59,13 @@ saxStream.onopentag = function (node) {
     at[node.name] = {
       __parent: at,
       __attrs: [],
+      __new: true,
     }
 
     // print
     indented_log(node.name)
+  } else {
+    at[node.name].__new = false
   }
   
   // navigate
@@ -74,6 +82,15 @@ saxStream.onclosetag = function (node) {
   loc.pop()
 }
 
+saxStream.ontext = function (text) {
+  if (withEg && at.__new) {
+    if (text.trim()) {
+      indented_log(`- text e.g. "${text.trim().replace(/"g/, `\\"`).replace(/\r?\n/g, "\\n")}"`)
+      at.__new = false
+    }
+  }
+}
+
 saxStream.onattribute = function (attr) {
   if (at.__attrs.indexOf(attr.name) < 0) {
     // => we don't know of this attribute yet
@@ -82,7 +99,7 @@ saxStream.onattribute = function (attr) {
     at.__attrs.push(attr.name)
 
     // print
-    indented_log(`- attr ${attr.name}`)
+    indented_log(`- attr ${attr.name}${withEg ? ` e.g. "${attr.value}"` : ``}`)
   }
 }
 
