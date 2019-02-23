@@ -1,0 +1,22 @@
+Discovering structure of discogs_20190101_labels.xml...
+labels
+  label
+    images
+      - attr height
+      - attr type
+      - attr uri
+      - attr uri150
+      - attr width
+      image
+    id
+    name
+    contactinfo
+    profile
+    data_quality
+    urls
+      url
+    sublabels
+      - attr id
+      label
+    - attr id
+    parentLabel
