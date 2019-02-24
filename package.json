@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "disconnect": "^1.2.1",
+    "dotenv": "^6.2.0",
+    "fs-extra": "^7.0.1",
     "sax": "^1.2.4"
   }
 }
