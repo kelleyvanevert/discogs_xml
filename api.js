@@ -9,12 +9,20 @@ const { performance } = require("perf_hooks")
 const util = require("util")
 const exec = util.promisify(require("child_process").exec)
 
-const db = new Discogs("hello", { userToken: process.env.TOKEN }).database()
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+const db = new Discogs("hello", { userToken: process.env.DISCOGS_TOKEN }).database()
 
 fs.ensureDirSync(`./images`)
 fs.ensureDirSync(`./errors`)
 
-const download_releases = Array.from({ length: 9999 }).map((__, i) => i + 1);
+const download_releases = shuffle(Array.from({ length: 1000000 }).map((__, i) => i + 1))
 
 async function getNextRelease () {
   if (download_releases.length === 0) {
@@ -22,7 +30,7 @@ async function getNextRelease () {
     return process.exit()
   }
 
-  const id = download_releases.shift()
+  const id = download_releases.pop()
 
   process.stdout.write(`${id}: `)
 

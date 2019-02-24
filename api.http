@@ -1,17 +1,15 @@
 
-@Token = <TOKEN>
-
 ###
 
 GET https://api.discogs.com/oauth/identity
 User-Agent: hello
-Authorization: Discogs token={{Token}}
+Authorization: Discogs token={{DISCOGS_TOKEN}}
 
 ###
 
-GET https://api.discogs.com/releases/72408
+GET https://api.discogs.com/releases/688354
 User-Agent: hello
-Authorization: Discogs token={{Token}}
+Authorization: Discogs token={{DISCOGS_TOKEN}}
 
 # Example image uri:
 # https://img.discogs.com/2e3s-w-JF4jdIeUTkIXjTsJY9Kw=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-249504-1334592212.jpeg.jpg
